@@ -76,7 +76,9 @@ class casualCustomer extends customer{//CONCRETE PRODUCTS
 class businessCustomer extends customer{
     businessCustomer(){
         rollArray = new int[10];
-        rollChoice(this);
+        for (int i = 0; i < 10; i++) {
+            rollArray[i] = (i/2)+1;
+        }
     }
 }
 
