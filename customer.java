@@ -53,6 +53,7 @@ abstract public class customer {
     //Should be a function in Resturant that is able to change the roll array depending on if they dont have enough stock
 
     public static void main(String args[]){//Main for testing customer stuff
+        //Delete this main when doing testing for the resturant, when all is done get rid of this main
         customerFactory factory = new customerFactory();//AN ABSTRACT CLASS THAT HAS THE PRODUCTS OF THE FACTORY
         customer casual = factory.createCustomer("casual");
         customer cater = factory.createCustomer("catering");
