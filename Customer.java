@@ -39,7 +39,7 @@ abstract public class Customer {
     //3 = pastryRoll
     //4 = sausageRoll
     //5 = jellyRoll
-    public static void rollChoice(customer person) {//populate array with rolls based on what customer "wants"
+    public static void rollChoice(Customer person) {//populate array with rolls based on what customer "wants"
         int rollChoice = 0;
         int pickThree[];
         if (person.rollArray.length == 15){
@@ -85,7 +85,7 @@ abstract public class Customer {
     }
 
     public void makeOrder(Store store) {
-      outage = store.takeOrder(rollArray, this); //expand to include extras
+      outage = store.takeOrder(rollArray, sauceArray, fillArray, topArray, this);
       wentToStore = true;
     }
 

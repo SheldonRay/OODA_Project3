@@ -48,8 +48,12 @@ class StoreSim {
   }
 
   public static void main(String args[]) {
+    runSimulation(args[1]);
+  }
+
+  public void runSimulation(String arg) {
     this.store = new Store(1);
-    for(day; day <= 30; day++) {
+    for(int day; day <= 30; day++) {
       System.out.println("Day: " + day);
       store.refillInventory();
       store.printInventory();
@@ -63,7 +67,7 @@ class StoreSim {
         this.custarray[i].makeOrder();
       }
       //add all the other stuff in the loop
-      
+
       store.printDailyOrders();
       store.resetDailyOrders();
       store.printInventory();

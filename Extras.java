@@ -1,39 +1,35 @@
-public abstract class Extras extends Rolls{
-    
-    public class Sauce extends Extras{
-        Rolls roll;
+public abstract class Extras extends Rolls {
+    Rolls roll;
+    abstract public int cost();
+}
 
-        public Sauce (Rolls roll){
-            this.roll = roll;
-        }
-
-        public double cost(){
-            return roll.cost + 0.50;
-        }
+class Sauce extends Extras {
+    public Sauce (Rolls roll){
+        this.roll = roll;
     }
 
-    public class Filling extends Extras{
-        Rolls roll;
+    public int cost(){
+        return roll.cost + 1;
+    }
+}
 
-        public Filling (Rolls roll){
-            this.roll = roll;
-        }
-
-        public double cost(){
-            return roll.cost + 0.25;
-        }
+class Filling extends Extras {
+    public Filling (Rolls roll){
+        this.roll = roll;
     }
 
+    public int cost(){
+        return roll.cost + 1;
+    }
+}
 
-    public class Topping extends Extras{
-        Rolls roll;
 
-        public Topping (Rolls roll){
-            this.roll = roll;
-        }
+class Topping extends Extras {
+    public Topping (Rolls roll){
+        this.roll = roll;
+    }
 
-        public double cost(){
-            return roll.cost + 1.00;
-        }
+    public int cost(){
+        return roll.cost + 1;
     }
 }
