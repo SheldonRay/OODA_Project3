@@ -3,12 +3,33 @@ import java.util.Random;
 
 abstract public class Customer {
     int rollArray[];
+    int sauceArray[];
+    int fillArray[];
+    int topArray[];
     Boolean outage = false;
     Boolean wentToStore = false;
 
     public static int RandRollChoice(){//https://stackoverflow.com/questions/20389890/generating-a-random-number-between-1-and-10-java
         Random rand = new Random();
         int randomNum = rand.nextInt((5 - 1) + 1) + 1;
+        return randomNum;
+    }
+
+    public static int RandSauceChoice(){//https://stackoverflow.com/questions/20389890/generating-a-random-number-between-1-and-10-java
+        Random rand = new Random();
+        int randomNum = rand.nextInt((3 - 0) + 1) + 0;
+        return randomNum;
+    }
+
+    public static int RandFillChoice(){//https://stackoverflow.com/questions/20389890/generating-a-random-number-between-1-and-10-java
+        Random rand = new Random();
+        int randomNum = rand.nextInt((1 - 0) + 1) + 0;
+        return randomNum;
+    }
+
+    public static int RandTopChoice(){//https://stackoverflow.com/questions/20389890/generating-a-random-number-between-1-and-10-java
+        Random rand = new Random();
+        int randomNum = rand.nextInt((2 - 0) + 1) + 0;
         return randomNum;
     }
 
@@ -54,10 +75,17 @@ abstract public class Customer {
             }
         }
 
+        //extras
+        for(int i = 0; i < person.rollArray.length; i++){
+            person.sauceArray[i] = RandSauceChoice();
+            person.fillArray[i] = RandFillChoice();
+            person.topArray[i] = RandTopChoice();
+        }
+
     }
 
     public void makeOrder(Store store) {
-      outage = store.takeOrder();
+      outage = store.takeOrder(rollArray, this); //expand to include extras
       wentToStore = true;
     }
 

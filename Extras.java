@@ -7,8 +7,8 @@ public abstract class Extras extends Rolls{
             this.roll = roll;
         }
 
-        public double cost(){
-            return roll.cost() + (0.50 * (rand.nextInt((3 - 0) + 1) + 0));
+        public double cost(int num){
+            return roll.cost() + (0.50 * num);
         }
     }
 
@@ -19,8 +19,8 @@ public abstract class Extras extends Rolls{
             this.roll = roll;
         }
 
-        public double cost(){
-            return roll.cost() + (0.25 * (rand.nextInt((1 - 0) + 1) + 0));
+        public double cost(int num){
+            return roll.cost() + (0.25 * num);
         }
     }
 
@@ -32,8 +32,8 @@ public abstract class Extras extends Rolls{
             this.roll = roll;
         }
 
-        public double cost(){
-            return roll.cost() + (1.00 * (rand.nextInt((2 - 0) + 1) + 0));
+        public double cost(int num){
+            return roll.cost() + (1.00 * num);
         }
     }
 }

@@ -63,7 +63,9 @@ class StoreSim {
         this.custarray[i].makeOrder();
       }
       //add all the other stuff in the loop
-
+      
+      store.printDailyOrders();
+      store.resetDailyOrders();
       store.printInventory();
     }
     //all the stuff printed out at the end of the 30 days

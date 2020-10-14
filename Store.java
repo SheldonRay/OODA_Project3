@@ -70,6 +70,20 @@ private class Store {
         jellyRolls.setInventory(30);
       }
     }
+    public void printDailyOrders() {
+      eggRolls.printDailyOrderCount();
+      springRolls.printDailyOrderCount();
+      pastryRolls.printDailyOrderCount();
+      sausageRolls.printDailyOrderCount();
+      jellyRolls.printDailyOrderCount();
+    }
+    public void resetDailyOrders() {
+      eggRolls.dailyOrders = 0;
+      springRolls.dailyOrders = 0;
+      pastryRolls.dailyOrders = 0;
+      sausageRolls.dailyOrders = 0;
+      jellyRolls.dailyOrders = 0;
+    }
     public Boolean takeOrder(int rollArray[], Customer customer) { //return true if outage, false if no outage
       int orderCost = 0;
       if (customer instanceof BusinessCustomer) {
