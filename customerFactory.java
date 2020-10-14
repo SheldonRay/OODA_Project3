@@ -1,18 +1,18 @@
-public class customerFactory{ //FACTORY
+public class CustomerFactory{ //FACTORY
     //Factory method to create the customers
 
-    public customer createCustomer(String type){//Make the customers given what type they are supposed to be
+    public Customer createCustomer(String type){//Make the customers given what type they are supposed to be
         if (type.equals("casual") || type.equals("Casual")){
-            return new casualCustomer();
+            return new CasualCustomer();
         }
         else if (type.equals("business") || type.equals("Buisness")){
-            return new businessCustomer();
+            return new BusinessCustomer();
         }
         else if (type.equals("catering") || type.equals("Catering")){
-            return new cateringCustomer();
+            return new CateringCustomer();
         }
         else{
-            return new casualCustomer();//return a casual customer if no input
+            return new CasualCustomer();//return a casual customer if no input
         }
     }
 

@@ -1,7 +1,7 @@
 import java.util.Random;
 
 
-abstract public class customer {
+abstract public class Customer {
     int rollArray[];
     //A total of 1 to 12 casual customers, 1 to 3 business customers, and 1 to 3 catering customers
     public static int RandCasualCustomersNum(){//https://stackoverflow.com/questions/20389890/generating-a-random-number-between-1-and-10-java
@@ -52,29 +52,18 @@ abstract public class customer {
     }
     //Should be a function in Resturant that is able to change the roll array depending on if they dont have enough stock
 
-    public static void main(String args[]){//Main for testing customer stuff
-        //Delete this main when doing testing for the resturant, when all is done get rid of this main
-        customerFactory factory = new customerFactory();//AN ABSTRACT CLASS THAT HAS THE PRODUCTS OF THE FACTORY
-        customer casual = factory.createCustomer("casual");
-        customer cater = factory.createCustomer("catering");
-        customer buis = factory.createCustomer("business");
-        for (int i = 0; i < 3 ; i++) {
-            System.out.println(casual.rollArray[i]);
-        }
-        return;
-    }
 }
 
 //Start Customers
-class casualCustomer extends customer{//CONCRETE PRODUCTS
-    casualCustomer(){//upon creation each casual customer given an array of size 3
+class CasualCustomer extends Customer{//CONCRETE PRODUCTS
+    public CasualCustomer() {//upon creation each casual customer given an array of size 3
         rollArray = new int[3];
         rollChoice(this);
     }
 }
 
-class businessCustomer extends customer{
-    businessCustomer(){
+class BusinessCustomer extends Customer{
+    public BusinessCustomer() {
         rollArray = new int[10];
         for (int i = 0; i < 10; i++) {
             rollArray[i] = (i/2)+1;
@@ -82,8 +71,8 @@ class businessCustomer extends customer{
     }
 }
 
-class cateringCustomer extends customer {
-    cateringCustomer() {
+class CateringCustomer extends Customer {
+    public CateringCustomer() {
         rollArray = new int[15];
         rollChoice(this);
     }
