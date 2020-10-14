@@ -1,5 +1,5 @@
 # OODA_Project3
-## Program Title: Project 3
+# Program Title: Project_3_RollStoreSim
 # Team Members: Jacob Reynolds, Tyler Devlin, Sheldon Ray
 ##
 # Run Application Instructions:
