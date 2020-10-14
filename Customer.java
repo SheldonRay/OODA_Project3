@@ -3,19 +3,8 @@ import java.util.Random;
 
 abstract public class Customer {
     int rollArray[];
-
-    //A total of 1 to 12 casual customers, 1 to 3 business customers, and 1 to 3 catering customers
-    public static int RandCasualCustomersNum(){//https://stackoverflow.com/questions/20389890/generating-a-random-number-between-1-and-10-java
-        Random rand = new Random();
-        int randomNum = rand.nextInt((12 - 1) + 1) + 1;
-        return randomNum;
-    }
-
-    public static int RandBusinessAndCateringCustomersNum(){//https://stackoverflow.com/questions/20389890/generating-a-random-number-between-1-and-10-java
-        Random rand = new Random();
-        int randomNum = rand.nextInt((3 - 1) + 1) + 1;
-        return randomNum;
-    }
+    Boolean outage = false;
+    Boolean wentToStore = false;
 
     public static int RandRollChoice(){//https://stackoverflow.com/questions/20389890/generating-a-random-number-between-1-and-10-java
         Random rand = new Random();
@@ -66,7 +55,12 @@ abstract public class Customer {
         }
 
     }
-    //Should be a function in Resturant that is able to change the roll array depending on if they dont have enough stock
+
+    public void makeOrder(Store store) {
+      outage = store.takeOrder();
+      wentToStore = true;
+    }
+
 
 }
 

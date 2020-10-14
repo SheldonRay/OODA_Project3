@@ -12,6 +12,8 @@ private class Store {
     private int totalSales = 0;
     private int totalOutages = 0;
 
+    public Boolean storeClosed = false;
+
     public EggRolls eggRolls = new EggRolls();
     public SpringRolls springRolls = new SpringRolls();
     public PastryRolls pastryRolls = new PastryRolls();
@@ -51,7 +53,104 @@ private class Store {
       System.out.println(sausageRolls.inventory + " sausage rolls in inventory");
       System.out.println(jellyRolls.inventory + " jelly rolls in inventory");
     }
-    public int takeOrder() {
-
+    public void refillInventory() {
+      if (eggRolls.getInventory() <= 0) {
+        eggRolls.setInventory(30);
+      }
+      if (springRolls.getInventory() <= 0) {
+        springRolls.setInventory(30);
+      }
+      if (pastryRolls.getInventory() <= 0) {
+        pastryRolls.setInventory(30);
+      }
+      if (sausageRolls.getInventory() <= 0) {
+        sausageRolls.setInventory(30);
+      }
+      if (jellyRolls.getInventory() <= 0) {
+        jellyRolls.setInventory(30);
+      }
+    }
+    public Boolean takeOrder(int rollArray[], Customer customer) { //return true if outage, false if no outage
+      int orderCost = 0;
+      if (customer instanceof BusinessCustomer) {
+        if (eggRolls.inventory < 2 || springRolls.inventory < 2 || pastryRolls.inventory < 2 || sausageRolls.inventory < 2 || jellyRolls.inventory < 2) {
+          totalOutages += 1;
+          return true;
+        }
+      }
+      Boolean outage = false;
+      for (int i = 0; i < rolls.length; i++) {
+        if(outage) {
+          if(eggRolls.getInventory() > 0) {
+            eggRolls.takeOneRoll();
+            orderCost += eggRolls.calculateCost(); //expand function to include extras
+          } else if(springRolls.getInventory() > 0) {
+            springRolls.takeOneRoll();
+            orderCost += springRolls.calculateCost();
+          } else if(pastryRolls.getInventory() > 0) {
+            pastryRolls.takeOneRoll();
+            orderCost += pastryRolls.calculateCost();
+          } else if(sausageRolls.getInventory() > 0) {
+            sausageRolls.takeOneRoll();
+            orderCost += sausageRolls.calculateCost();
+          } else if(jellyRolls.getInventory() > 0) {
+            jellyRolls.takeOneRoll();
+            orderCost += jellyRolls.calculateCost();
+          } else {
+            storeClosed = true;
+            totalSales += orderCost
+            return true;
+          }
+        } else {
+          switch(rollArray[i]) {
+            case 1:
+              if(eggRolls.getInventory() > 0) {
+                eggRolls.takeOneRoll();
+                orderCost += eggRolls.calculateCost();
+              } else {
+                outage = true;
+                totalOutages++;
+              }
+              break;
+            case 2:
+              if(springRolls.getInventory() > 0) {
+                springRolls.takeOneRoll();
+                orderCost += springRolls.calculateCost();
+              } else {
+                outage = true;
+                totalOutages++;
+              }
+              break;
+            case 3:
+              if(pastryRolls.getInventory() > 0) {
+                pastryRolls.takeOneRoll();
+                orderCost += pastryRolls.calculateCost();
+              } else {
+                outage = true;
+                totalOutages++;
+              }
+              break;
+            case 4:
+              if(sausageRolls.getInventory() > 0) {
+                sausageRolls.takeOneRoll();
+                orderCost += sausageRolls.calculateCost();
+              } else {
+                outage = true;
+                totalOutages++;
+              }
+              break;
+            case 5;
+              if(jellyRolls.getInventory() > 0) {
+                jellyRolls.takeOneRoll();
+                orderCost += jellyRolls.calculateCost();
+              } else {
+                outage = true;
+                totalOutages++;
+              }
+              break;
+          }
+        }
+      }
+      return outage;
     }
 }
