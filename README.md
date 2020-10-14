@@ -1,7 +1,6 @@
 # OODA_Project3
 # Program Title: Project_3_RollStoreSim
 # Team Members: Jacob Reynolds, Tyler Devlin, Sheldon Ray
-##
 # Run Application Instructions:
 ## type 'javac *.java in folder to compile code
 ## run 'java StoreSim' to execute code
