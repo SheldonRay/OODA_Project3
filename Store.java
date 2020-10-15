@@ -14,11 +14,11 @@ class Store {
 
     public Boolean storeClosed = false;
 
-    public EggRolls eggRolls = new EggRolls(30);
-    public SpringRolls springRolls = new SpringRolls(30);
-    public PastryRolls pastryRolls = new PastryRolls(30);
-    public SausageRolls sausageRolls = new SausageRolls(30);
-    public JellyRolls jellyRolls = new JellyRolls(30);
+    public EggRolls eggRolls = new EggRolls(0);
+    public SpringRolls springRolls = new SpringRolls(0);
+    public PastryRolls pastryRolls = new PastryRolls(0);
+    public SausageRolls sausageRolls = new SausageRolls(0);
+    public JellyRolls jellyRolls = new JellyRolls(0);
     public Store(int storeID) {
       this.storeID = storeID;
     }
@@ -58,22 +58,23 @@ class Store {
       System.out.println(sausageRolls.inventory + " sausage rolls in inventory");
       System.out.println(jellyRolls.inventory + " jelly rolls in inventory");
     }
-    public void refillInventory() {
+    public void refillInventory(int size) {
       if (eggRolls.getInventory() <= 0) {
-        eggRolls.setInventory(30);
+        eggRolls.setInventory(size);
       }
       if (springRolls.getInventory() <= 0) {
-        springRolls.setInventory(30);
+        springRolls.setInventory(size);
       }
       if (pastryRolls.getInventory() <= 0) {
-        pastryRolls.setInventory(30);
+        pastryRolls.setInventory(size);
       }
       if (sausageRolls.getInventory() <= 0) {
-        sausageRolls.setInventory(30);
+        sausageRolls.setInventory(size);
       }
       if (jellyRolls.getInventory() <= 0) {
-        jellyRolls.setInventory(30);
+        jellyRolls.setInventory(size);
       }
+      storeClosed = false;
     }
     public void printDailyOrders() {
       eggRolls.printDailyOrderCount();

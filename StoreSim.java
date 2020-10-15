@@ -47,15 +47,22 @@ class StoreSim {
     return custarr;
   }
 
-  public void main(String args[]) {
-    runSimulation(args[1]);
+  public static void main(String args[]) {
+    StoreSim sim = new StoreSim();
+    int size;
+    try {
+      size = Integer.parseInt(args[0]);
+    } catch(NumberFormatException e) {
+      size = 30;
+    }
+    sim.runSimulation(size);
   }
 
-  public void runSimulation(String arg) {
+  public void runSimulation(int size) {
     this.store = new Store(1);
-    for(int day = 0; day <= 30; day++) {
-      System.out.println("Day: " + day);
-      store.refillInventory();
+    for(int day = 0; day < 30; day++) {
+      System.out.println("Day: " + (day + 1));
+      store.refillInventory(size);
       store.printInventory();
       this.custarray = populateCustomers();
       int custlength = custarray.length;

@@ -30,7 +30,7 @@ public class MyUnitTest {
         Store store = new Store(1);
         store.eggRolls.setInventory(0);
         store.springRolls.setInventory(5);
-        store.refillInventory();
+        store.refillInventory(30);
         assertEquals(store.eggRolls.getInventory(), 30);
         assertEquals(store.springRolls.getInventory(), 5);
         System.out.println("Status: Passed");
