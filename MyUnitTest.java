@@ -1,7 +1,5 @@
 import org.junit.Test;
 
-import jdk.internal.jshell.tool.resources.version;
-
 import static org.junit.Assert.*;
 
 public class MyUnitTest {
@@ -21,7 +19,7 @@ public class MyUnitTest {
         int fillArray[] = {0,0,0,0,0};
         int topArray[] = {0,0,0,0,0};
         store.takeOrder(rollArray, sauceArray, fillArray, topArray, customer);
-        assertEqual(store.getTotalOutages(), 1);
+        assertEquals(store.getTotalOutages(),1);
         System.out.println("Status: Passed");
 
     }
@@ -54,7 +52,7 @@ public class MyUnitTest {
         int fillArray[] = {0,0,0,0,0};
         int topArray[] = {0,0,0,0,0};
         store.takeOrder(rollArray, sauceArray, fillArray, topArray, customer);
-        assertEqual(store.getStoreClosed(), True);
+        assertEquals(store.getStoreClosed(), true);
         System.out.println("Status: Passed");
 
     }
@@ -70,7 +68,7 @@ public class MyUnitTest {
         int fillArray[] = {0,0,0,0,0};
         int topArray[] = {0,0,0,0,0};
         store.takeOrder(rollArray, sauceArray, fillArray, topArray, customer);
-        assertEqual(store.eggRolls.getTotalEggOrders(), 5);
+        assertEquals(store.getTotalEggOrders(), 5);
         System.out.println("Status: Passed");
 
     }
@@ -89,7 +87,7 @@ public class MyUnitTest {
         int fillArray[] = {0,0,0,0,0};
         int topArray[] = {0,0,0,0,0};
         store.takeOrder(rollArray, sauceArray, fillArray, topArray, customer);
-        assertEqual(store.getStoreClosed(), False);
+        assertEquals(store.getStoreClosed(), false);
         System.out.println("Status: Passed");
 
     }
@@ -98,7 +96,6 @@ public class MyUnitTest {
         System.out.println("Test: check if daily sales are added to total sales");
         Store store = new Store(1);
         CasualCustomer customer = new CasualCustomer();
-        assertEqual(store.getTotalSales(), 0);
         store.eggRolls.setInventory(2);
         store.springRolls.setInventory(2);
         store.pastryRolls.setInventory(2);
@@ -109,27 +106,23 @@ public class MyUnitTest {
         int fillArray[] = {0,0,0,0,0};
         int topArray[] = {0,0,0,0,0};
         store.takeOrder(rollArray, sauceArray, fillArray, topArray, customer);
-        assertEqual(store.getTotalSales(), 20);
+        assertEquals(store.getTotalSales(), 20);
         System.out.println("Status: Passed");
 
     }
 
     @Test
-    public void checkExtrasAreAdded() {
-        System.out.println("Test: check if extras are added");
+    public void checkTotalSpringRollOrders() {
+        System.out.println("Test: check total springroll orders");
         Store store = new Store(1);
         CasualCustomer customer = new CasualCustomer();
-        store.eggRolls.setInventory(2);
-        store.springRolls.setInventory(2);
-        store.pastryRolls.setInventory(2);
-        store.sausageRolls.setInventory(2);
-        store.jellyRolls.setInventory(2);
-        int rollArray[] = {1,2,3,4,5};
-        int sauceArray[] = {0,1,0,0,0};
-        int fillArray[] = {0,0,0,1,0};
-        int topArray[] = {1,0,0,1,0};
+        store.eggRolls.setInventory(30);
+        int rollArray[] = {2,2,2,2,2};
+        int sauceArray[] = {0,0,0,0,0};
+        int fillArray[] = {0,0,0,0,0};
+        int topArray[] = {0,0,0,0,0};
         store.takeOrder(rollArray, sauceArray, fillArray, topArray, customer);
-        assertEqual(store.getTotalSales(), 24);
+        assertEquals(store.getTotalSpringOrders(), 5);
         System.out.println("Status: Passed");
 
     }
