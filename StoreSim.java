@@ -47,24 +47,25 @@ class StoreSim {
     return custarr;
   }
 
-  public static void main(String args[]) {
+  public void main(String args[]) {
     runSimulation(args[1]);
   }
 
   public void runSimulation(String arg) {
     this.store = new Store(1);
-    for(int day; day <= 30; day++) {
+    for(int day = 0; day <= 30; day++) {
       System.out.println("Day: " + day);
       store.refillInventory();
       store.printInventory();
       this.custarray = populateCustomers();
       int custlength = custarray.length;
+
       for(int i = 0; i < custlength; i++) {
         if(store.storeClosed) {
           System.out.println("Store closed for the day!");
           break;
         }
-        this.custarray[i].makeOrder();
+        this.custarray[i].makeOrder(this.store);
       }
       //add all the other stuff in the loop
 
