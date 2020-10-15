@@ -9,7 +9,7 @@ class Sauce extends Extras {
     }
 
     public int cost(){
-        return roll.cost + 1;
+        return (roll.cost + 1);
     }
 }
 
@@ -19,7 +19,7 @@ class Filling extends Extras {
     }
 
     public int cost(){
-        return roll.cost + 1;
+        return (roll.cost + 1);
     }
 }
 
@@ -30,6 +30,6 @@ class Topping extends Extras {
     }
 
     public int cost(){
-        return roll.cost + 1;
+        return (roll.cost + 1);
     }
 }
