@@ -22,9 +22,11 @@ class Store {
     public Store(int storeID) {
       this.storeID = storeID;
     }
+
     public int getTotalOrders() {
-      return totalEggOrders + totalSpringOrders + totalPastryOrders + totalSausageOrders + totalJellyOrders;
+        return totalEggOrders + totalSpringOrders + totalPastryOrders + totalSausageOrders + totalJellyOrders;
     }
+
     public int getTotalEggOrders() {
       return totalEggOrders;
     }
@@ -124,6 +126,7 @@ class Store {
               if(eggRolls.getInventory() > 0) {
                 eggRolls.takeOneRoll();
                 orderCost += eggRolls.calculateCost(sauceArray[i], fillArray[i], topArray[i]);
+                totalEggOrders += 1;
               } else {
                 outage = true;
                 totalOutages++;
@@ -133,6 +136,7 @@ class Store {
               if(springRolls.getInventory() > 0) {
                 springRolls.takeOneRoll();
                 orderCost += springRolls.calculateCost(sauceArray[i], fillArray[i], topArray[i]);
+                totalSpringOrders += 1;
               } else {
                 outage = true;
                 totalOutages++;
@@ -142,6 +146,7 @@ class Store {
               if(pastryRolls.getInventory() > 0) {
                 pastryRolls.takeOneRoll();
                 orderCost += pastryRolls.calculateCost(sauceArray[i], fillArray[i], topArray[i]);
+                totalPastryOrders += 1;
               } else {
                 outage = true;
                 totalOutages++;
@@ -151,6 +156,7 @@ class Store {
               if(sausageRolls.getInventory() > 0) {
                 sausageRolls.takeOneRoll();
                 orderCost += sausageRolls.calculateCost(sauceArray[i], fillArray[i], topArray[i]);
+                totalSausageOrders += 1;
               } else {
                 outage = true;
                 totalOutages++;
@@ -160,6 +166,7 @@ class Store {
               if(jellyRolls.getInventory() > 0) {
                 jellyRolls.takeOneRoll();
                 orderCost += jellyRolls.calculateCost(sauceArray[i], fillArray[i], topArray[i]);
+                totalJellyOrders += 1;
               } else {
                 outage = true;
                 totalOutages++;
@@ -168,6 +175,7 @@ class Store {
           }
         }
       }
+      totalSales += orderCost;
       return outage;
     }
 }
