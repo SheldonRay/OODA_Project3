@@ -41,7 +41,7 @@ abstract public class Customer {
     //5 = jellyRoll
     public static void rollChoice(Customer person) {//populate array with rolls based on what customer "wants"
         int rollChoice = 0;
-        int pickThree[];
+        int pickThree[] = new int[3];
         if (person.rollArray.length == 15){
             rollChoice = RandRollChoice();
             pickThree[0] = rollChoice;
@@ -96,6 +96,9 @@ abstract public class Customer {
 class CasualCustomer extends Customer{//CONCRETE PRODUCTS
     public CasualCustomer() {//upon creation each casual customer given an array of size 3
         rollArray = new int[3];
+        sauceArray = new int[3];
+        fillArray= new int[3];
+        topArray= new int[3];
         rollChoice(this);
     }
 }
@@ -103,6 +106,9 @@ class CasualCustomer extends Customer{//CONCRETE PRODUCTS
 class BusinessCustomer extends Customer{
     public BusinessCustomer() {
         rollArray = new int[10];
+        sauceArray = new int[10];
+        fillArray= new int[10];
+        topArray= new int[10];
         rollChoice(this);
     }
 }
@@ -110,6 +116,9 @@ class BusinessCustomer extends Customer{
 class CateringCustomer extends Customer {
     public CateringCustomer() {
         rollArray = new int[15];
+        sauceArray = new int[15];
+        fillArray= new int[15];
+        topArray= new int[15];
         rollChoice(this);
     }
 }
