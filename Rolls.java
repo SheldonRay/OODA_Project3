@@ -81,6 +81,7 @@ class PastryRolls extends Rolls {
     public void printDailyOrderCount() {
       System.out.println("Daily Pastryroll orders: " + dailyOrders);
     }
+
     public int calculateCost(int sauce, int fill, int top) {
       Rolls temp = new PastryRolls(1);
       while(sauce > 0){
