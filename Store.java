@@ -92,6 +92,12 @@ class Store {
     }
     public Boolean takeOrder(int rollArray[], int sauceArray[], int fillArray[], int topArray[], Customer customer) { //return true if outage, false if no outage
       int orderCost = 0;
+      int numeggrolls = 0;
+      int numspringrolls = 0;
+      int numpastryrolls = 0;
+      int numsausagerolls = 0;
+      int numjellyrolls = 0;
+      double totextras = 0.0;
       if (customer instanceof BusinessCustomer) {
         if (eggRolls.getInventory() < 2 || springRolls.getInventory() < 2 || pastryRolls.getInventory() < 2 || sausageRolls.getInventory() < 2 || jellyRolls.getInventory() < 2) {
           totalOutages += 1;
@@ -103,23 +109,29 @@ class Store {
         if(outage) {
           if(eggRolls.getInventory() > 0) {
             eggRolls.takeOneRoll();
+            numeggrolls++;
             orderCost += eggRolls.calculateCost(0,0,0); //expand function to include extras
           } else if(springRolls.getInventory() > 0) {
             springRolls.takeOneRoll();
+            numspringrolls++;
             orderCost += springRolls.calculateCost(0,0,0);
           } else if(pastryRolls.getInventory() > 0) {
             pastryRolls.takeOneRoll();
+            numpastryrolls++;
             orderCost += pastryRolls.calculateCost(0,0,0);
           } else if(sausageRolls.getInventory() > 0) {
             sausageRolls.takeOneRoll();
+            numsausagerolls++;
             orderCost += sausageRolls.calculateCost(0,0,0);
           } else if(jellyRolls.getInventory() > 0) {
             jellyRolls.takeOneRoll();
+            numjellyrolls++;
             orderCost += jellyRolls.calculateCost(0,0,0);
           } else {
             storeClosed = true;
             totalSales += orderCost;
             customer.customerspent += orderCost;
+            printOrderGiven(numeggrolls, numspringrolls, numpastryrolls, numsausagerolls, numjellyrolls, totextras, orderCost, customer);
             return true;
           }
         } else {
@@ -127,7 +139,9 @@ class Store {
             case 1:
               if(eggRolls.getInventory() > 0) {
                 eggRolls.takeOneRoll();
+                numeggrolls++;
                 orderCost += eggRolls.calculateCost(sauceArray[i], fillArray[i], topArray[i]);
+                totextras += (sauceArray[i] + fillArray[i] + topArray[i]);
                 totalEggOrders += 1;
               } else {
                 outage = true;
@@ -137,7 +151,9 @@ class Store {
             case 2:
               if(springRolls.getInventory() > 0) {
                 springRolls.takeOneRoll();
+                numspringrolls++;
                 orderCost += springRolls.calculateCost(sauceArray[i], fillArray[i], topArray[i]);
+                totextras += (sauceArray[i] + fillArray[i] + topArray[i]);
                 totalSpringOrders += 1;
               } else {
                 outage = true;
@@ -147,7 +163,9 @@ class Store {
             case 3:
               if(pastryRolls.getInventory() > 0) {
                 pastryRolls.takeOneRoll();
+                numpastryrolls++;
                 orderCost += pastryRolls.calculateCost(sauceArray[i], fillArray[i], topArray[i]);
+                totextras += (sauceArray[i] + fillArray[i] + topArray[i]);
                 totalPastryOrders += 1;
               } else {
                 outage = true;
@@ -157,7 +175,9 @@ class Store {
             case 4:
               if(sausageRolls.getInventory() > 0) {
                 sausageRolls.takeOneRoll();
+                numsausagerolls++;
                 orderCost += sausageRolls.calculateCost(sauceArray[i], fillArray[i], topArray[i]);
+                totextras += (sauceArray[i] + fillArray[i] + topArray[i]);
                 totalSausageOrders += 1;
               } else {
                 outage = true;
@@ -167,7 +187,9 @@ class Store {
             case 5:
               if(jellyRolls.getInventory() > 0) {
                 jellyRolls.takeOneRoll();
+                numjellyrolls++;
                 orderCost += jellyRolls.calculateCost(sauceArray[i], fillArray[i], topArray[i]);
+                totextras += (sauceArray[i] + fillArray[i] + topArray[i]);
                 totalJellyOrders += 1;
               } else {
                 outage = true;
@@ -179,6 +201,22 @@ class Store {
       }
       totalSales += orderCost;
       customer.customerspent += orderCost;
+      printOrderGiven(numeggrolls, numspringrolls, numpastryrolls, numsausagerolls, numjellyrolls, totextras, orderCost, customer);
       return outage;
+    }
+    public void printOrderGiven(int egg, int spring, int pastry, int sausage, int jelly, double extras, int cost, Customer customer) {
+      if(customer instanceof CasualCustomer) {
+        System.out.println("Casual Customer Orders:");
+      }
+      if(customer instanceof BusinessCustomer) {
+        System.out.println("Business Customer Orders:");
+      }
+      if(customer instanceof CateringCustomer) {
+        System.out.println("Catering Customer Orders:");
+      }
+      System.out.println(egg + " EggRolls, " + spring + " SpringRolls, " + pastry + " PastryRolls, " + sausage + " SausageRolls, and " + jelly + " JellyRolls.");
+      double extaverage = extras / (egg + spring + pastry + sausage + jelly);
+      System.out.println("They got " + extaverage + " Extras per Roll");
+      System.out.println("Order Cost: " + cost);
     }
 }

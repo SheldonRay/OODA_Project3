@@ -1,0 +1,1968 @@
+Tests:
+Test: check if outages are being counted
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 4 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 24
+Status: Passed
+Test: check if Inventory is refilled
+Status: Passed
+Test: check if store closed when all inventory is out
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got NaN Extras per Roll
+Order Cost: 0
+Status: Passed
+Test: check total eggroll orders
+Casual Customer Orders:
+5 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 10
+Status: Passed
+Test: check customer outage order is correct
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 4 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 16
+Status: Passed
+Test: check if daily sales are added to total sales
+Casual Customer Orders:
+1 EggRolls, 1 SpringRolls, 1 PastryRolls, 1 SausageRolls, and 1 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 20
+Status: Passed
+Test: check total springroll orders
+Casual Customer Orders:
+0 EggRolls, 5 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 15
+Status: Passed
+Test: check if casual customer gets order correct
+Status: Passed
+Test: check if business customer gets order correct
+Status: Passed
+Test: check if catering customer gets order correct
+Status: Passed
+----------------------------------------
+Day: 1
+30 egg rolls in inventory
+30 spring rolls in inventory
+30 pastry rolls in inventory
+30 sausage rolls in inventory
+30 jelly rolls in inventory
+Catering Customer Orders:
+5 EggRolls, 0 SpringRolls, 0 PastryRolls, 5 SausageRolls, and 5 JellyRolls.
+They got 3.066666666666667 Extras per Roll
+Order Cost: 148
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 1 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 2.6666666666666665 Extras per Roll
+Order Cost: 28
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 0 PastryRolls, 2 SausageRolls, and 0 JellyRolls.
+They got 1.6666666666666667 Extras per Roll
+Order Cost: 18
+Casual Customer Orders:
+3 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 22
+Casual Customer Orders:
+1 EggRolls, 1 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 1.0 Extras per Roll
+Order Cost: 16
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 3.8 Extras per Roll
+Order Cost: 110
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 1 PastryRolls, 2 SausageRolls, and 0 JellyRolls.
+They got 3.6666666666666665 Extras per Roll
+Order Cost: 30
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 2 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 32
+Casual Customer Orders:
+1 EggRolls, 1 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 2.6666666666666665 Extras per Roll
+Order Cost: 26
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 30
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 1 PastryRolls, 1 SausageRolls, and 1 JellyRolls.
+They got 4.333333333333333 Extras per Roll
+Order Cost: 35
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 2.6666666666666665 Extras per Roll
+Order Cost: 25
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 2 JellyRolls.
+They got 3.6666666666666665 Extras per Roll
+Order Cost: 31
+Casual Customer Orders:
+1 EggRolls, 1 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 4.333333333333333 Extras per Roll
+Order Cost: 27
+Casual Customers Spent: 320
+Business Customers Spent: 110
+Catering Customers Spent: 148
+Total Daily Sales: 578
+Casual Customer Outages: 0
+Business Customer Outages: 0
+Catering Customer Outages: 0
+Daily Eggroll orders: 16
+Daily Springroll orders: 7
+Daily Pastryroll orders: 12
+Daily Sausageroll orders: 13
+Daily Jellyroll orders: 13
+14 egg rolls in inventory
+23 spring rolls in inventory
+18 pastry rolls in inventory
+17 sausage rolls in inventory
+17 jelly rolls in inventory
+-----------------------------------------
+Day: 2
+14 egg rolls in inventory
+23 spring rolls in inventory
+18 pastry rolls in inventory
+17 sausage rolls in inventory
+17 jelly rolls in inventory
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 2.6666666666666665 Extras per Roll
+Order Cost: 26
+Catering Customer Orders:
+0 EggRolls, 5 SpringRolls, 0 PastryRolls, 5 SausageRolls, and 5 JellyRolls.
+They got 3.4 Extras per Roll
+Order Cost: 152
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 3.1 Extras per Roll
+Order Cost: 99
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 2.6666666666666665 Extras per Roll
+Order Cost: 24
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 3.1 Extras per Roll
+Order Cost: 99
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 1 JellyRolls.
+They got 3.3333333333333335 Extras per Roll
+Order Cost: 31
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 0 PastryRolls, 2 SausageRolls, and 0 JellyRolls.
+They got 2.0 Extras per Roll
+Order Cost: 23
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 2.3333333333333335 Extras per Roll
+Order Cost: 25
+Casual Customer Orders:
+1 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 2.3333333333333335 Extras per Roll
+Order Cost: 19
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 3.6666666666666665 Extras per Roll
+Order Cost: 33
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 2 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 1.3333333333333333 Extras per Roll
+Order Cost: 17
+Casual Customers Spent: 198
+Business Customers Spent: 198
+Catering Customers Spent: 152
+Total Daily Sales: 548
+Casual Customer Outages: 0
+Business Customer Outages: 0
+Catering Customer Outages: 0
+Daily Eggroll orders: 12
+Daily Springroll orders: 12
+Daily Pastryroll orders: 8
+Daily Sausageroll orders: 15
+Daily Jellyroll orders: 12
+2 egg rolls in inventory
+11 spring rolls in inventory
+10 pastry rolls in inventory
+2 sausage rolls in inventory
+5 jelly rolls in inventory
+-----------------------------------------
+Day: 3
+2 egg rolls in inventory
+11 spring rolls in inventory
+10 pastry rolls in inventory
+2 sausage rolls in inventory
+5 jelly rolls in inventory
+Catering Customer Orders:
+2 EggRolls, 5 SpringRolls, 5 PastryRolls, 2 SausageRolls, and 0 JellyRolls.
+They got 2.5714285714285716 Extras per Roll
+Order Cost: 110
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 2 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 32
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 6
+Catering Customer Orders:
+0 EggRolls, 4 SpringRolls, 3 PastryRolls, 0 SausageRolls, and 4 JellyRolls.
+They got 1.1818181818181819 Extras per Roll
+Order Cost: 71
+Store closed for the day: Out of Stock!
+Casual Customers Spent: 38
+Business Customers Spent: 0
+Catering Customers Spent: 181
+Total Daily Sales: 219
+Casual Customer Outages: 1
+Business Customer Outages: 1
+Catering Customer Outages: 2
+Daily Eggroll orders: 2
+Daily Springroll orders: 11
+Daily Pastryroll orders: 10
+Daily Sausageroll orders: 2
+Daily Jellyroll orders: 5
+0 egg rolls in inventory
+0 spring rolls in inventory
+0 pastry rolls in inventory
+0 sausage rolls in inventory
+0 jelly rolls in inventory
+-----------------------------------------
+Day: 4
+30 egg rolls in inventory
+30 spring rolls in inventory
+30 pastry rolls in inventory
+30 sausage rolls in inventory
+30 jelly rolls in inventory
+Catering Customer Orders:
+5 EggRolls, 5 SpringRolls, 5 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 3.2666666666666666 Extras per Roll
+Order Cost: 129
+Catering Customer Orders:
+5 EggRolls, 5 SpringRolls, 0 PastryRolls, 5 SausageRolls, and 0 JellyRolls.
+They got 2.933333333333333 Extras per Roll
+Order Cost: 133
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 27
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 3.3333333333333335 Extras per Roll
+Order Cost: 31
+Casual Customer Orders:
+2 EggRolls, 1 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 21
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 2.7 Extras per Roll
+Order Cost: 94
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 3.6666666666666665 Extras per Roll
+Order Cost: 33
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 3.4 Extras per Roll
+Order Cost: 100
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 3.3333333333333335 Extras per Roll
+Order Cost: 30
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 2.8 Extras per Roll
+Order Cost: 92
+Casual Customers Spent: 142
+Business Customers Spent: 286
+Catering Customers Spent: 262
+Total Daily Sales: 690
+Casual Customer Outages: 0
+Business Customer Outages: 0
+Catering Customer Outages: 0
+Daily Eggroll orders: 22
+Daily Springroll orders: 19
+Daily Pastryroll orders: 15
+Daily Sausageroll orders: 13
+Daily Jellyroll orders: 6
+8 egg rolls in inventory
+11 spring rolls in inventory
+15 pastry rolls in inventory
+17 sausage rolls in inventory
+24 jelly rolls in inventory
+-----------------------------------------
+Day: 5
+8 egg rolls in inventory
+11 spring rolls in inventory
+15 pastry rolls in inventory
+17 sausage rolls in inventory
+24 jelly rolls in inventory
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 27
+Catering Customer Orders:
+0 EggRolls, 5 SpringRolls, 0 PastryRolls, 5 SausageRolls, and 5 JellyRolls.
+They got 3.066666666666667 Extras per Roll
+Order Cost: 157
+Casual Customer Orders:
+1 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 1.6666666666666667 Extras per Roll
+Order Cost: 19
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 29
+Casual Customer Orders:
+1 EggRolls, 1 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 3.3333333333333335 Extras per Roll
+Order Cost: 27
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 2.6 Extras per Roll
+Order Cost: 86
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 2 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 4.666666666666667 Extras per Roll
+Order Cost: 41
+Casual Customer Orders:
+1 EggRolls, 1 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 3.6666666666666665 Extras per Roll
+Order Cost: 30
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 1.5 Extras per Roll
+Order Cost: 14
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 2 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 8
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 2 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 8
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 2 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 8
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 2 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 8
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 2 SausageRolls, and 0 JellyRolls.
+They got 1.5 Extras per Roll
+Order Cost: 17
+Casual Customers Spent: 236
+Business Customers Spent: 86
+Catering Customers Spent: 157
+Total Daily Sales: 479
+Casual Customer Outages: 6
+Business Customer Outages: 0
+Catering Customer Outages: 0
+Daily Eggroll orders: 8
+Daily Springroll orders: 11
+Daily Pastryroll orders: 15
+Daily Sausageroll orders: 11
+Daily Jellyroll orders: 10
+0 egg rolls in inventory
+0 spring rolls in inventory
+0 pastry rolls in inventory
+6 sausage rolls in inventory
+14 jelly rolls in inventory
+-----------------------------------------
+Day: 6
+30 egg rolls in inventory
+30 spring rolls in inventory
+30 pastry rolls in inventory
+6 sausage rolls in inventory
+14 jelly rolls in inventory
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 2.9 Extras per Roll
+Order Cost: 95
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 2.5 Extras per Roll
+Order Cost: 84
+Catering Customer Orders:
+5 EggRolls, 0 SpringRolls, 5 PastryRolls, 0 SausageRolls, and 5 JellyRolls.
+They got 3.466666666666667 Extras per Roll
+Order Cost: 154
+Catering Customer Orders:
+12 EggRolls, 0 SpringRolls, 0 PastryRolls, 2 SausageRolls, and 0 JellyRolls.
+They got 0.2857142857142857 Extras per Roll
+Order Cost: 41
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 2.0 Extras per Roll
+Order Cost: 19
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 1.5 Extras per Roll
+Order Cost: 10
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 4
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 4
+Casual Customer Orders:
+2 EggRolls, 1 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 4.333333333333333 Extras per Roll
+Order Cost: 32
+Casual Customer Orders:
+1 EggRolls, 1 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 5
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 2 JellyRolls.
+They got 2.3333333333333335 Extras per Roll
+Order Cost: 28
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 6
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 3.5 Extras per Roll
+Order Cost: 17
+Casual Customers Spent: 125
+Business Customers Spent: 179
+Catering Customers Spent: 195
+Total Daily Sales: 499
+Casual Customer Outages: 6
+Business Customer Outages: 0
+Catering Customer Outages: 1
+Daily Eggroll orders: 30
+Daily Springroll orders: 10
+Daily Pastryroll orders: 11
+Daily Sausageroll orders: 6
+Daily Jellyroll orders: 13
+0 egg rolls in inventory
+20 spring rolls in inventory
+19 pastry rolls in inventory
+0 sausage rolls in inventory
+1 jelly rolls in inventory
+-----------------------------------------
+Day: 7
+30 egg rolls in inventory
+20 spring rolls in inventory
+19 pastry rolls in inventory
+30 sausage rolls in inventory
+1 jelly rolls in inventory
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 1 PastryRolls, 2 SausageRolls, and 0 JellyRolls.
+They got 2.0 Extras per Roll
+Order Cost: 27
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 4.5 Extras per Roll
+Order Cost: 25
+Catering Customer Orders:
+14 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 28
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 4
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 4
+Casual Customers Spent: 60
+Business Customers Spent: 0
+Catering Customers Spent: 28
+Total Daily Sales: 88
+Casual Customer Outages: 3
+Business Customer Outages: 3
+Catering Customer Outages: 1
+Daily Eggroll orders: 18
+Daily Springroll orders: 0
+Daily Pastryroll orders: 2
+Daily Sausageroll orders: 2
+Daily Jellyroll orders: 1
+12 egg rolls in inventory
+20 spring rolls in inventory
+17 pastry rolls in inventory
+28 sausage rolls in inventory
+0 jelly rolls in inventory
+-----------------------------------------
+Day: 8
+12 egg rolls in inventory
+20 spring rolls in inventory
+17 pastry rolls in inventory
+28 sausage rolls in inventory
+30 jelly rolls in inventory
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 2.1 Extras per Roll
+Order Cost: 81
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 2.6666666666666665 Extras per Roll
+Order Cost: 26
+Catering Customer Orders:
+5 EggRolls, 5 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 5 JellyRolls.
+They got 2.533333333333333 Extras per Roll
+Order Cost: 116
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 2 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 31
+Catering Customer Orders:
+5 EggRolls, 0 SpringRolls, 0 PastryRolls, 5 SausageRolls, and 5 JellyRolls.
+They got 3.2666666666666666 Extras per Roll
+Order Cost: 151
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 2 SausageRolls, and 1 JellyRolls.
+They got 4.333333333333333 Extras per Roll
+Order Cost: 44
+Catering Customer Orders:
+0 EggRolls, 9 SpringRolls, 0 PastryRolls, 5 SausageRolls, and 0 JellyRolls.
+They got 0.9285714285714286 Extras per Roll
+Order Cost: 74
+Casual Customers Spent: 101
+Business Customers Spent: 81
+Catering Customers Spent: 341
+Total Daily Sales: 523
+Casual Customer Outages: 0
+Business Customer Outages: 0
+Catering Customer Outages: 1
+Daily Eggroll orders: 12
+Daily Springroll orders: 18
+Daily Pastryroll orders: 3
+Daily Sausageroll orders: 14
+Daily Jellyroll orders: 16
+0 egg rolls in inventory
+2 spring rolls in inventory
+14 pastry rolls in inventory
+14 sausage rolls in inventory
+14 jelly rolls in inventory
+-----------------------------------------
+Day: 9
+30 egg rolls in inventory
+2 spring rolls in inventory
+14 pastry rolls in inventory
+14 sausage rolls in inventory
+14 jelly rolls in inventory
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 1 PastryRolls, 1 SausageRolls, and 1 JellyRolls.
+They got 3.3333333333333335 Extras per Roll
+Order Cost: 31
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 1.9 Extras per Roll
+Order Cost: 69
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 2.3333333333333335 Extras per Roll
+Order Cost: 19
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 4
+Catering Customer Orders:
+4 EggRolls, 0 SpringRolls, 0 PastryRolls, 5 SausageRolls, and 5 JellyRolls.
+They got 2.0 Extras per Roll
+Order Cost: 107
+Catering Customer Orders:
+5 EggRolls, 0 SpringRolls, 5 PastryRolls, 0 SausageRolls, and 5 JellyRolls.
+They got 2.933333333333333 Extras per Roll
+Order Cost: 143
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.5 Extras per Roll
+Order Cost: 8
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 1.6666666666666667 Extras per Roll
+Order Cost: 18
+Catering Customer Orders:
+10 EggRolls, 0 SpringRolls, 0 PastryRolls, 4 SausageRolls, and 0 JellyRolls.
+They got 1.5714285714285714 Extras per Roll
+Order Cost: 83
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 2.0 Extras per Roll
+Order Cost: 21
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 4
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 2 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 8
+Casual Customers Spent: 113
+Business Customers Spent: 69
+Catering Customers Spent: 333
+Total Daily Sales: 515
+Casual Customer Outages: 5
+Business Customer Outages: 1
+Catering Customer Outages: 2
+Daily Eggroll orders: 30
+Daily Springroll orders: 2
+Daily Pastryroll orders: 12
+Daily Sausageroll orders: 14
+Daily Jellyroll orders: 14
+0 egg rolls in inventory
+0 spring rolls in inventory
+2 pastry rolls in inventory
+0 sausage rolls in inventory
+0 jelly rolls in inventory
+-----------------------------------------
+Day: 10
+30 egg rolls in inventory
+30 spring rolls in inventory
+2 pastry rolls in inventory
+30 sausage rolls in inventory
+30 jelly rolls in inventory
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 1 PastryRolls, 1 SausageRolls, and 1 JellyRolls.
+They got 2.6666666666666665 Extras per Roll
+Order Cost: 33
+Catering Customer Orders:
+13 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.14285714285714285 Extras per Roll
+Order Cost: 34
+Catering Customer Orders:
+14 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 1.5 Extras per Roll
+Order Cost: 63
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 4
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 4.0 Extras per Roll
+Order Cost: 24
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 2 JellyRolls.
+They got 2.6666666666666665 Extras per Roll
+Order Cost: 33
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 2 JellyRolls.
+They got 3.3333333333333335 Extras per Roll
+Order Cost: 39
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 17
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 6
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 2 JellyRolls.
+They got 2.6666666666666665 Extras per Roll
+Order Cost: 34
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 2 SausageRolls, and 1 JellyRolls.
+They got 3.6666666666666665 Extras per Roll
+Order Cost: 36
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 1.0 Extras per Roll
+Order Cost: 11
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 3.3333333333333335 Extras per Roll
+Order Cost: 30
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 6
+Casual Customers Spent: 273
+Business Customers Spent: 0
+Catering Customers Spent: 97
+Total Daily Sales: 370
+Casual Customer Outages: 6
+Business Customer Outages: 2
+Catering Customer Outages: 2
+Daily Eggroll orders: 30
+Daily Springroll orders: 9
+Daily Pastryroll orders: 2
+Daily Sausageroll orders: 8
+Daily Jellyroll orders: 9
+0 egg rolls in inventory
+21 spring rolls in inventory
+0 pastry rolls in inventory
+22 sausage rolls in inventory
+21 jelly rolls in inventory
+-----------------------------------------
+Day: 11
+30 egg rolls in inventory
+21 spring rolls in inventory
+30 pastry rolls in inventory
+22 sausage rolls in inventory
+21 jelly rolls in inventory
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 101
+Catering Customer Orders:
+5 EggRolls, 5 SpringRolls, 5 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 2.3333333333333335 Extras per Roll
+Order Cost: 104
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 88
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 3.4 Extras per Roll
+Order Cost: 102
+Casual Customer Orders:
+1 EggRolls, 1 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 29
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 2 SausageRolls, and 1 JellyRolls.
+They got 3.3333333333333335 Extras per Roll
+Order Cost: 33
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 2 SausageRolls, and 1 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 34
+Catering Customer Orders:
+5 EggRolls, 0 SpringRolls, 5 PastryRolls, 0 SausageRolls, and 5 JellyRolls.
+They got 2.466666666666667 Extras per Roll
+Order Cost: 130
+Casual Customers Spent: 96
+Business Customers Spent: 291
+Catering Customers Spent: 234
+Total Daily Sales: 621
+Casual Customer Outages: 0
+Business Customer Outages: 0
+Catering Customer Outages: 0
+Daily Eggroll orders: 17
+Daily Springroll orders: 12
+Daily Pastryroll orders: 16
+Daily Sausageroll orders: 10
+Daily Jellyroll orders: 14
+13 egg rolls in inventory
+9 spring rolls in inventory
+14 pastry rolls in inventory
+12 sausage rolls in inventory
+7 jelly rolls in inventory
+-----------------------------------------
+Day: 12
+13 egg rolls in inventory
+9 spring rolls in inventory
+14 pastry rolls in inventory
+12 sausage rolls in inventory
+7 jelly rolls in inventory
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 4.333333333333333 Extras per Roll
+Order Cost: 33
+Catering Customer Orders:
+0 EggRolls, 0 SpringRolls, 5 PastryRolls, 5 SausageRolls, and 5 JellyRolls.
+They got 2.8 Extras per Roll
+Order Cost: 156
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 1 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 24
+Catering Customer Orders:
+12 EggRolls, 1 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 0.07142857142857142 Extras per Roll
+Order Cost: 35
+Catering Customer Orders:
+0 EggRolls, 7 SpringRolls, 7 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 49
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 2 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 10
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 2 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 10
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 2 SausageRolls, and 0 JellyRolls.
+They got 1.5 Extras per Roll
+Order Cost: 13
+Casual Customers Spent: 90
+Business Customers Spent: 0
+Catering Customers Spent: 240
+Total Daily Sales: 330
+Casual Customer Outages: 3
+Business Customer Outages: 3
+Catering Customer Outages: 2
+Daily Eggroll orders: 13
+Daily Springroll orders: 9
+Daily Pastryroll orders: 14
+Daily Sausageroll orders: 12
+Daily Jellyroll orders: 7
+0 egg rolls in inventory
+0 spring rolls in inventory
+0 pastry rolls in inventory
+0 sausage rolls in inventory
+0 jelly rolls in inventory
+-----------------------------------------
+Day: 13
+30 egg rolls in inventory
+30 spring rolls in inventory
+30 pastry rolls in inventory
+30 sausage rolls in inventory
+30 jelly rolls in inventory
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 0 PastryRolls, 2 SausageRolls, and 0 JellyRolls.
+They got 4.333333333333333 Extras per Roll
+Order Cost: 36
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 4.0 Extras per Roll
+Order Cost: 32
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 2.3 Extras per Roll
+Order Cost: 86
+Catering Customer Orders:
+5 EggRolls, 0 SpringRolls, 0 PastryRolls, 5 SausageRolls, and 5 JellyRolls.
+They got 2.8 Extras per Roll
+Order Cost: 147
+Catering Customer Orders:
+0 EggRolls, 5 SpringRolls, 0 PastryRolls, 5 SausageRolls, and 5 JellyRolls.
+They got 2.6666666666666665 Extras per Roll
+Order Cost: 144
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 2 JellyRolls.
+They got 2.0 Extras per Roll
+Order Cost: 28
+Catering Customer Orders:
+5 EggRolls, 5 SpringRolls, 5 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 3.2 Extras per Roll
+Order Cost: 132
+Casual Customers Spent: 96
+Business Customers Spent: 86
+Catering Customers Spent: 423
+Total Daily Sales: 605
+Casual Customer Outages: 0
+Business Customer Outages: 0
+Catering Customer Outages: 0
+Daily Eggroll orders: 12
+Daily Springroll orders: 14
+Daily Pastryroll orders: 8
+Daily Sausageroll orders: 15
+Daily Jellyroll orders: 15
+18 egg rolls in inventory
+16 spring rolls in inventory
+22 pastry rolls in inventory
+15 sausage rolls in inventory
+15 jelly rolls in inventory
+-----------------------------------------
+Day: 14
+18 egg rolls in inventory
+16 spring rolls in inventory
+22 pastry rolls in inventory
+15 sausage rolls in inventory
+15 jelly rolls in inventory
+Catering Customer Orders:
+5 EggRolls, 5 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 5 JellyRolls.
+They got 3.1333333333333333 Extras per Roll
+Order Cost: 143
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 2.5 Extras per Roll
+Order Cost: 79
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 2.4 Extras per Roll
+Order Cost: 88
+Catering Customer Orders:
+0 EggRolls, 5 SpringRolls, 5 PastryRolls, 0 SausageRolls, and 5 JellyRolls.
+They got 2.8 Extras per Roll
+Order Cost: 141
+Catering Customer Orders:
+9 EggRolls, 2 SpringRolls, 3 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.5 Extras per Roll
+Order Cost: 48
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 1 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 0.5 Extras per Roll
+Order Cost: 11
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 2 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 8
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 2 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 8
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 1.0 Extras per Roll
+Order Cost: 14
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 2 SausageRolls, and 0 JellyRolls.
+They got 2.0 Extras per Roll
+Order Cost: 18
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 2 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 8
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 2 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 2.0 Extras per Roll
+Order Cost: 17
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 2 SausageRolls, and 0 JellyRolls.
+They got 2.0 Extras per Roll
+Order Cost: 17
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 2 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 10
+Casual Customers Spent: 111
+Business Customers Spent: 167
+Catering Customers Spent: 332
+Total Daily Sales: 610
+Casual Customer Outages: 9
+Business Customer Outages: 1
+Catering Customer Outages: 1
+Daily Eggroll orders: 18
+Daily Springroll orders: 16
+Daily Pastryroll orders: 22
+Daily Sausageroll orders: 11
+Daily Jellyroll orders: 15
+0 egg rolls in inventory
+0 spring rolls in inventory
+0 pastry rolls in inventory
+4 sausage rolls in inventory
+0 jelly rolls in inventory
+-----------------------------------------
+Day: 15
+30 egg rolls in inventory
+30 spring rolls in inventory
+30 pastry rolls in inventory
+4 sausage rolls in inventory
+30 jelly rolls in inventory
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 3 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 3.6666666666666665 Extras per Roll
+Order Cost: 34
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 2 JellyRolls.
+They got 3.3333333333333335 Extras per Roll
+Order Cost: 31
+Casual Customer Orders:
+1 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 3.6666666666666665 Extras per Roll
+Order Cost: 27
+Casual Customer Orders:
+1 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 4.0 Extras per Roll
+Order Cost: 31
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 1 PastryRolls, 2 SausageRolls, and 0 JellyRolls.
+They got 3.3333333333333335 Extras per Roll
+Order Cost: 29
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 2 JellyRolls.
+They got 4.0 Extras per Roll
+Order Cost: 36
+Catering Customer Orders:
+4 EggRolls, 5 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 5 JellyRolls.
+They got 2.0 Extras per Roll
+Order Cost: 103
+Catering Customer Orders:
+9 EggRolls, 0 SpringRolls, 5 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 1.8571428571428572 Extras per Roll
+Order Cost: 85
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 2 JellyRolls.
+They got 2.0 Extras per Roll
+Order Cost: 27
+Casual Customer Orders:
+2 EggRolls, 1 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 25
+Casual Customer Orders:
+1 EggRolls, 1 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 2.0 Extras per Roll
+Order Cost: 21
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 3 JellyRolls.
+They got 3.3333333333333335 Extras per Roll
+Order Cost: 35
+Casual Customers Spent: 296
+Business Customers Spent: 0
+Catering Customers Spent: 188
+Total Daily Sales: 484
+Casual Customer Outages: 0
+Business Customer Outages: 2
+Catering Customer Outages: 2
+Daily Eggroll orders: 18
+Daily Springroll orders: 12
+Daily Pastryroll orders: 10
+Daily Sausageroll orders: 4
+Daily Jellyroll orders: 14
+12 egg rolls in inventory
+18 spring rolls in inventory
+20 pastry rolls in inventory
+0 sausage rolls in inventory
+16 jelly rolls in inventory
+-----------------------------------------
+Day: 16
+12 egg rolls in inventory
+18 spring rolls in inventory
+20 pastry rolls in inventory
+30 sausage rolls in inventory
+16 jelly rolls in inventory
+Catering Customer Orders:
+5 EggRolls, 0 SpringRolls, 5 PastryRolls, 0 SausageRolls, and 5 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 136
+Catering Customer Orders:
+0 EggRolls, 5 SpringRolls, 0 PastryRolls, 5 SausageRolls, and 5 JellyRolls.
+They got 2.933333333333333 Extras per Roll
+Order Cost: 156
+Catering Customer Orders:
+0 EggRolls, 5 SpringRolls, 5 PastryRolls, 5 SausageRolls, and 0 JellyRolls.
+They got 2.466666666666667 Extras per Roll
+Order Cost: 118
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 2.3333333333333335 Extras per Roll
+Order Cost: 23
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 3.1 Extras per Roll
+Order Cost: 98
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 2.8 Extras per Roll
+Order Cost: 91
+Casual Customers Spent: 23
+Business Customers Spent: 189
+Catering Customers Spent: 410
+Total Daily Sales: 622
+Casual Customer Outages: 0
+Business Customer Outages: 1
+Catering Customer Outages: 0
+Daily Eggroll orders: 9
+Daily Springroll orders: 15
+Daily Pastryroll orders: 15
+Daily Sausageroll orders: 14
+Daily Jellyroll orders: 15
+3 egg rolls in inventory
+3 spring rolls in inventory
+5 pastry rolls in inventory
+16 sausage rolls in inventory
+1 jelly rolls in inventory
+-----------------------------------------
+Day: 17
+3 egg rolls in inventory
+3 spring rolls in inventory
+5 pastry rolls in inventory
+16 sausage rolls in inventory
+1 jelly rolls in inventory
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 2.0 Extras per Roll
+Order Cost: 19
+Casual Customer Orders:
+1 EggRolls, 1 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 4.666666666666667 Extras per Roll
+Order Cost: 33
+Casual Customer Orders:
+1 EggRolls, 1 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.5 Extras per Roll
+Order Cost: 7
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 6
+Catering Customer Orders:
+0 EggRolls, 0 SpringRolls, 3 PastryRolls, 11 SausageRolls, and 0 JellyRolls.
+They got 0.35714285714285715 Extras per Roll
+Order Cost: 75
+Catering Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 5 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 25
+Store closed for the day: Out of Stock!
+Casual Customers Spent: 65
+Business Customers Spent: 0
+Catering Customers Spent: 100
+Total Daily Sales: 165
+Casual Customer Outages: 3
+Business Customer Outages: 1
+Catering Customer Outages: 2
+Daily Eggroll orders: 3
+Daily Springroll orders: 3
+Daily Pastryroll orders: 5
+Daily Sausageroll orders: 16
+Daily Jellyroll orders: 1
+0 egg rolls in inventory
+0 spring rolls in inventory
+0 pastry rolls in inventory
+0 sausage rolls in inventory
+0 jelly rolls in inventory
+-----------------------------------------
+Day: 18
+30 egg rolls in inventory
+30 spring rolls in inventory
+30 pastry rolls in inventory
+30 sausage rolls in inventory
+30 jelly rolls in inventory
+Catering Customer Orders:
+5 EggRolls, 5 SpringRolls, 5 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 3.2 Extras per Roll
+Order Cost: 129
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 3.3 Extras per Roll
+Order Cost: 101
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 1 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 2.3333333333333335 Extras per Roll
+Order Cost: 23
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 2.0 Extras per Roll
+Order Cost: 80
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 1 PastryRolls, 2 SausageRolls, and 0 JellyRolls.
+They got 3.3333333333333335 Extras per Roll
+Order Cost: 34
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 1 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 1.6666666666666667 Extras per Roll
+Order Cost: 23
+Casual Customers Spent: 80
+Business Customers Spent: 181
+Catering Customers Spent: 129
+Total Daily Sales: 390
+Casual Customer Outages: 0
+Business Customer Outages: 0
+Catering Customer Outages: 0
+Daily Eggroll orders: 9
+Daily Springroll orders: 11
+Daily Pastryroll orders: 12
+Daily Sausageroll orders: 8
+Daily Jellyroll orders: 4
+21 egg rolls in inventory
+19 spring rolls in inventory
+18 pastry rolls in inventory
+22 sausage rolls in inventory
+26 jelly rolls in inventory
+-----------------------------------------
+Day: 19
+21 egg rolls in inventory
+19 spring rolls in inventory
+18 pastry rolls in inventory
+22 sausage rolls in inventory
+26 jelly rolls in inventory
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 3.3333333333333335 Extras per Roll
+Order Cost: 26
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 1 PastryRolls, 2 SausageRolls, and 0 JellyRolls.
+They got 3.3333333333333335 Extras per Roll
+Order Cost: 33
+Catering Customer Orders:
+5 EggRolls, 5 SpringRolls, 5 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 3.066666666666667 Extras per Roll
+Order Cost: 137
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 2 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 2.6666666666666665 Extras per Roll
+Order Cost: 29
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 3.2 Extras per Roll
+Order Cost: 100
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 1.6666666666666667 Extras per Roll
+Order Cost: 23
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 3.3 Extras per Roll
+Order Cost: 100
+Catering Customer Orders:
+10 EggRolls, 0 SpringRolls, 4 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 1.1428571428571428 Extras per Roll
+Order Cost: 70
+Casual Customer Orders:
+0 EggRolls, 3 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 1.6666666666666667 Extras per Roll
+Order Cost: 23
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 2 JellyRolls.
+They got 4.0 Extras per Roll
+Order Cost: 28
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 2.0 Extras per Roll
+Order Cost: 12
+Casual Customer Orders:
+1 EggRolls, 1 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 5
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 1.0 Extras per Roll
+Order Cost: 9
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 8
+Casual Customers Spent: 196
+Business Customers Spent: 200
+Catering Customers Spent: 207
+Total Daily Sales: 603
+Casual Customer Outages: 5
+Business Customer Outages: 1
+Catering Customer Outages: 1
+Daily Eggroll orders: 21
+Daily Springroll orders: 19
+Daily Pastryroll orders: 18
+Daily Sausageroll orders: 9
+Daily Jellyroll orders: 7
+0 egg rolls in inventory
+0 spring rolls in inventory
+0 pastry rolls in inventory
+13 sausage rolls in inventory
+19 jelly rolls in inventory
+-----------------------------------------
+Day: 20
+30 egg rolls in inventory
+30 spring rolls in inventory
+30 pastry rolls in inventory
+13 sausage rolls in inventory
+19 jelly rolls in inventory
+Catering Customer Orders:
+0 EggRolls, 5 SpringRolls, 0 PastryRolls, 5 SausageRolls, and 5 JellyRolls.
+They got 3.2666666666666666 Extras per Roll
+Order Cost: 158
+Casual Customer Orders:
+1 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 3.6666666666666665 Extras per Roll
+Order Cost: 30
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 2.8 Extras per Roll
+Order Cost: 95
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 2.8 Extras per Roll
+Order Cost: 93
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 3.3 Extras per Roll
+Order Cost: 100
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 3.3333333333333335 Extras per Roll
+Order Cost: 28
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 3.5 Extras per Roll
+Order Cost: 20
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 4
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 2 JellyRolls.
+They got 3.3333333333333335 Extras per Roll
+Order Cost: 37
+Casual Customers Spent: 119
+Business Customers Spent: 288
+Catering Customers Spent: 158
+Total Daily Sales: 565
+Casual Customer Outages: 2
+Business Customer Outages: 0
+Catering Customer Outages: 0
+Daily Eggroll orders: 11
+Daily Springroll orders: 15
+Daily Pastryroll orders: 6
+Daily Sausageroll orders: 13
+Daily Jellyroll orders: 13
+19 egg rolls in inventory
+15 spring rolls in inventory
+24 pastry rolls in inventory
+0 sausage rolls in inventory
+6 jelly rolls in inventory
+-----------------------------------------
+Day: 21
+19 egg rolls in inventory
+15 spring rolls in inventory
+24 pastry rolls in inventory
+30 sausage rolls in inventory
+6 jelly rolls in inventory
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 2.6666666666666665 Extras per Roll
+Order Cost: 22
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 4.666666666666667 Extras per Roll
+Order Cost: 38
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 2 JellyRolls.
+They got 2.3333333333333335 Extras per Roll
+Order Cost: 31
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 91
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 3.3333333333333335 Extras per Roll
+Order Cost: 34
+Catering Customer Orders:
+13 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 1.7142857142857142 Extras per Roll
+Order Cost: 79
+Casual Customer Orders:
+1 EggRolls, 1 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 3.5 Extras per Roll
+Order Cost: 19
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 4.0 Extras per Roll
+Order Cost: 22
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 2 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 2.0 Extras per Roll
+Order Cost: 24
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 6
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 1.0 Extras per Roll
+Order Cost: 11
+Catering Customer Orders:
+0 EggRolls, 5 SpringRolls, 9 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 51
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 2 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 8
+Casual Customers Spent: 215
+Business Customers Spent: 91
+Catering Customers Spent: 130
+Total Daily Sales: 436
+Casual Customer Outages: 5
+Business Customer Outages: 0
+Catering Customer Outages: 2
+Daily Eggroll orders: 19
+Daily Springroll orders: 15
+Daily Pastryroll orders: 19
+Daily Sausageroll orders: 4
+Daily Jellyroll orders: 6
+0 egg rolls in inventory
+0 spring rolls in inventory
+5 pastry rolls in inventory
+26 sausage rolls in inventory
+0 jelly rolls in inventory
+-----------------------------------------
+Day: 22
+30 egg rolls in inventory
+30 spring rolls in inventory
+5 pastry rolls in inventory
+26 sausage rolls in inventory
+30 jelly rolls in inventory
+Catering Customer Orders:
+5 EggRolls, 5 SpringRolls, 0 PastryRolls, 5 SausageRolls, and 0 JellyRolls.
+They got 3.3333333333333335 Extras per Roll
+Order Cost: 136
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 1 PastryRolls, 1 SausageRolls, and 1 JellyRolls.
+They got 1.6666666666666667 Extras per Roll
+Order Cost: 21
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 3.3 Extras per Roll
+Order Cost: 100
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 2.9 Extras per Roll
+Order Cost: 90
+Catering Customer Orders:
+5 EggRolls, 5 SpringRolls, 0 PastryRolls, 5 SausageRolls, and 0 JellyRolls.
+They got 2.6 Extras per Roll
+Order Cost: 122
+Casual Customers Spent: 21
+Business Customers Spent: 190
+Catering Customers Spent: 258
+Total Daily Sales: 469
+Casual Customer Outages: 0
+Business Customer Outages: 1
+Catering Customer Outages: 0
+Daily Eggroll orders: 14
+Daily Springroll orders: 14
+Daily Pastryroll orders: 5
+Daily Sausageroll orders: 15
+Daily Jellyroll orders: 5
+16 egg rolls in inventory
+16 spring rolls in inventory
+0 pastry rolls in inventory
+11 sausage rolls in inventory
+25 jelly rolls in inventory
+-----------------------------------------
+Day: 23
+16 egg rolls in inventory
+16 spring rolls in inventory
+30 pastry rolls in inventory
+11 sausage rolls in inventory
+25 jelly rolls in inventory
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 2 JellyRolls.
+They got 4.0 Extras per Roll
+Order Cost: 35
+Catering Customer Orders:
+0 EggRolls, 5 SpringRolls, 5 PastryRolls, 5 SausageRolls, and 0 JellyRolls.
+They got 3.4 Extras per Roll
+Order Cost: 154
+Casual Customer Orders:
+1 EggRolls, 1 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 3.3333333333333335 Extras per Roll
+Order Cost: 31
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 2.4 Extras per Roll
+Order Cost: 78
+Casual Customer Orders:
+1 EggRolls, 1 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 4.0 Extras per Roll
+Order Cost: 30
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 3.6666666666666665 Extras per Roll
+Order Cost: 30
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 2.9 Extras per Roll
+Order Cost: 89
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 5.0 Extras per Roll
+Order Cost: 32
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 2.3333333333333335 Extras per Roll
+Order Cost: 26
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 4
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 4
+Casual Customer Orders:
+1 EggRolls, 1 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 5
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 2 JellyRolls.
+They got 4.333333333333333 Extras per Roll
+Order Cost: 38
+Casual Customers Spent: 235
+Business Customers Spent: 167
+Catering Customers Spent: 154
+Total Daily Sales: 556
+Casual Customer Outages: 3
+Business Customer Outages: 0
+Catering Customer Outages: 0
+Daily Eggroll orders: 16
+Daily Springroll orders: 13
+Daily Pastryroll orders: 13
+Daily Sausageroll orders: 11
+Daily Jellyroll orders: 9
+0 egg rolls in inventory
+3 spring rolls in inventory
+17 pastry rolls in inventory
+0 sausage rolls in inventory
+16 jelly rolls in inventory
+-----------------------------------------
+Day: 24
+30 egg rolls in inventory
+3 spring rolls in inventory
+17 pastry rolls in inventory
+30 sausage rolls in inventory
+16 jelly rolls in inventory
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 2.7 Extras per Roll
+Order Cost: 91
+Catering Customer Orders:
+5 EggRolls, 0 SpringRolls, 5 PastryRolls, 5 SausageRolls, and 0 JellyRolls.
+They got 3.066666666666667 Extras per Roll
+Order Cost: 137
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 29
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 1.3333333333333333 Extras per Roll
+Order Cost: 21
+Casual Customer Orders:
+1 EggRolls, 1 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 1.0 Extras per Roll
+Order Cost: 7
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 29
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 4
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 2 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 2.0 Extras per Roll
+Order Cost: 26
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 1.5 Extras per Roll
+Order Cost: 8
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 2.5 Extras per Roll
+Order Cost: 15
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 4
+Casual Customers Spent: 143
+Business Customers Spent: 91
+Catering Customers Spent: 137
+Total Daily Sales: 371
+Casual Customer Outages: 5
+Business Customer Outages: 2
+Catering Customer Outages: 0
+Daily Eggroll orders: 18
+Daily Springroll orders: 3
+Daily Pastryroll orders: 12
+Daily Sausageroll orders: 11
+Daily Jellyroll orders: 3
+12 egg rolls in inventory
+0 spring rolls in inventory
+5 pastry rolls in inventory
+19 sausage rolls in inventory
+13 jelly rolls in inventory
+-----------------------------------------
+Day: 25
+12 egg rolls in inventory
+30 spring rolls in inventory
+5 pastry rolls in inventory
+19 sausage rolls in inventory
+13 jelly rolls in inventory
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 2.7 Extras per Roll
+Order Cost: 92
+Catering Customer Orders:
+5 EggRolls, 5 SpringRolls, 0 PastryRolls, 5 SausageRolls, and 0 JellyRolls.
+They got 3.3333333333333335 Extras per Roll
+Order Cost: 142
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 1 PastryRolls, 1 SausageRolls, and 1 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 33
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 3.8 Extras per Roll
+Order Cost: 115
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 4
+Casual Customer Orders:
+1 EggRolls, 1 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 5
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 2.5 Extras per Roll
+Order Cost: 15
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 6
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 6
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 6
+Casual Customers Spent: 75
+Business Customers Spent: 207
+Catering Customers Spent: 142
+Total Daily Sales: 424
+Casual Customer Outages: 6
+Business Customer Outages: 0
+Catering Customer Outages: 0
+Daily Eggroll orders: 12
+Daily Springroll orders: 18
+Daily Pastryroll orders: 5
+Daily Sausageroll orders: 10
+Daily Jellyroll orders: 5
+0 egg rolls in inventory
+12 spring rolls in inventory
+0 pastry rolls in inventory
+9 sausage rolls in inventory
+8 jelly rolls in inventory
+-----------------------------------------
+Day: 26
+30 egg rolls in inventory
+12 spring rolls in inventory
+30 pastry rolls in inventory
+9 sausage rolls in inventory
+8 jelly rolls in inventory
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 1 JellyRolls.
+They got 2.6666666666666665 Extras per Roll
+Order Cost: 31
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 2.9 Extras per Roll
+Order Cost: 90
+Catering Customer Orders:
+5 EggRolls, 5 SpringRolls, 0 PastryRolls, 5 SausageRolls, and 0 JellyRolls.
+They got 3.1333333333333333 Extras per Roll
+Order Cost: 139
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 1 JellyRolls.
+They got 1.6666666666666667 Extras per Roll
+Order Cost: 24
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 24
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 1.5 Extras per Roll
+Order Cost: 12
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 1.5 Extras per Roll
+Order Cost: 16
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.5 Extras per Roll
+Order Cost: 7
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 27
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 2.6666666666666665 Extras per Roll
+Order Cost: 25
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 4
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 1.0 Extras per Roll
+Order Cost: 11
+Casual Customers Spent: 181
+Business Customers Spent: 90
+Catering Customers Spent: 139
+Total Daily Sales: 410
+Casual Customer Outages: 5
+Business Customer Outages: 0
+Catering Customer Outages: 0
+Daily Eggroll orders: 14
+Daily Springroll orders: 12
+Daily Pastryroll orders: 8
+Daily Sausageroll orders: 9
+Daily Jellyroll orders: 7
+16 egg rolls in inventory
+0 spring rolls in inventory
+22 pastry rolls in inventory
+0 sausage rolls in inventory
+1 jelly rolls in inventory
+-----------------------------------------
+Day: 27
+16 egg rolls in inventory
+30 spring rolls in inventory
+22 pastry rolls in inventory
+30 sausage rolls in inventory
+1 jelly rolls in inventory
+Catering Customer Orders:
+13 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 0.2857142857142857 Extras per Roll
+Order Cost: 39
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 1.3333333333333333 Extras per Roll
+Order Cost: 17
+Casual Customer Orders:
+1 EggRolls, 1 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 5
+Catering Customer Orders:
+0 EggRolls, 4 SpringRolls, 5 PastryRolls, 5 SausageRolls, and 0 JellyRolls.
+They got 1.8571428571428572 Extras per Roll
+Order Cost: 109
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 2.0 Extras per Roll
+Order Cost: 15
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 1.5 Extras per Roll
+Order Cost: 11
+Catering Customer Orders:
+0 EggRolls, 9 SpringRolls, 0 PastryRolls, 5 SausageRolls, and 0 JellyRolls.
+They got 1.2142857142857142 Extras per Roll
+Order Cost: 85
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 1.5 Extras per Roll
+Order Cost: 13
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 1 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 2.3333333333333335 Extras per Roll
+Order Cost: 30
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 1.5 Extras per Roll
+Order Cost: 14
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 6
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 6
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 2.0 Extras per Roll
+Order Cost: 16
+Casual Customers Spent: 133
+Business Customers Spent: 0
+Catering Customers Spent: 233
+Total Daily Sales: 366
+Casual Customer Outages: 8
+Business Customer Outages: 3
+Catering Customer Outages: 3
+Daily Eggroll orders: 16
+Daily Springroll orders: 24
+Daily Pastryroll orders: 7
+Daily Sausageroll orders: 16
+Daily Jellyroll orders: 1
+0 egg rolls in inventory
+6 spring rolls in inventory
+15 pastry rolls in inventory
+14 sausage rolls in inventory
+0 jelly rolls in inventory
+-----------------------------------------
+Day: 28
+30 egg rolls in inventory
+6 spring rolls in inventory
+15 pastry rolls in inventory
+14 sausage rolls in inventory
+30 jelly rolls in inventory
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 2.0 Extras per Roll
+Order Cost: 25
+Catering Customer Orders:
+5 EggRolls, 5 SpringRolls, 5 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 3.6 Extras per Roll
+Order Cost: 147
+Catering Customer Orders:
+5 EggRolls, 0 SpringRolls, 5 PastryRolls, 5 SausageRolls, and 0 JellyRolls.
+They got 3.2 Extras per Roll
+Order Cost: 138
+Catering Customer Orders:
+5 EggRolls, 0 SpringRolls, 4 PastryRolls, 0 SausageRolls, and 5 JellyRolls.
+They got 1.2142857142857142 Extras per Roll
+Order Cost: 94
+Casual Customer Orders:
+1 EggRolls, 1 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 3.0 Extras per Roll
+Order Cost: 26
+Casual Customer Orders:
+2 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 4
+Casual Customers Spent: 55
+Business Customers Spent: 0
+Catering Customers Spent: 379
+Total Daily Sales: 434
+Casual Customer Outages: 1
+Business Customer Outages: 1
+Catering Customer Outages: 1
+Daily Eggroll orders: 19
+Daily Springroll orders: 6
+Daily Pastryroll orders: 15
+Daily Sausageroll orders: 7
+Daily Jellyroll orders: 5
+11 egg rolls in inventory
+0 spring rolls in inventory
+0 pastry rolls in inventory
+7 sausage rolls in inventory
+25 jelly rolls in inventory
+-----------------------------------------
+Day: 29
+11 egg rolls in inventory
+30 spring rolls in inventory
+30 pastry rolls in inventory
+7 sausage rolls in inventory
+25 jelly rolls in inventory
+Catering Customer Orders:
+0 EggRolls, 5 SpringRolls, 5 PastryRolls, 5 SausageRolls, and 0 JellyRolls.
+They got 3.066666666666667 Extras per Roll
+Order Cost: 152
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 2.7 Extras per Roll
+Order Cost: 88
+Catering Customer Orders:
+9 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 5 JellyRolls.
+They got 2.142857142857143 Extras per Roll
+Order Cost: 107
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 6
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 6
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 2.0 Extras per Roll
+Order Cost: 11
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 6
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 3 JellyRolls.
+They got 3.3333333333333335 Extras per Roll
+Order Cost: 38
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 1.0 Extras per Roll
+Order Cost: 10
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 2.5 Extras per Roll
+Order Cost: 17
+Casual Customer Orders:
+0 EggRolls, 2 SpringRolls, 0 PastryRolls, 0 SausageRolls, and 0 JellyRolls.
+They got 0.0 Extras per Roll
+Order Cost: 6
+Casual Customers Spent: 100
+Business Customers Spent: 88
+Catering Customers Spent: 259
+Total Daily Sales: 447
+Casual Customer Outages: 7
+Business Customer Outages: 2
+Catering Customer Outages: 1
+Daily Eggroll orders: 11
+Daily Springroll orders: 19
+Daily Pastryroll orders: 9
+Daily Sausageroll orders: 7
+Daily Jellyroll orders: 10
+0 egg rolls in inventory
+11 spring rolls in inventory
+21 pastry rolls in inventory
+0 sausage rolls in inventory
+15 jelly rolls in inventory
+-----------------------------------------
+Day: 30
+30 egg rolls in inventory
+11 spring rolls in inventory
+21 pastry rolls in inventory
+30 sausage rolls in inventory
+15 jelly rolls in inventory
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 2 JellyRolls.
+They got 2.0 Extras per Roll
+Order Cost: 32
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 3.5 Extras per Roll
+Order Cost: 100
+Business Customer Orders:
+2 EggRolls, 2 SpringRolls, 2 PastryRolls, 2 SausageRolls, and 2 JellyRolls.
+They got 3.2 Extras per Roll
+Order Cost: 93
+Catering Customer Orders:
+5 EggRolls, 5 SpringRolls, 0 PastryRolls, 5 SausageRolls, and 0 JellyRolls.
+They got 3.6 Extras per Roll
+Order Cost: 147
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 2 SausageRolls, and 1 JellyRolls.
+They got 1.3333333333333333 Extras per Roll
+Order Cost: 23
+Casual Customer Orders:
+0 EggRolls, 1 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 3.6666666666666665 Extras per Roll
+Order Cost: 29
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 0 SausageRolls, and 1 JellyRolls.
+They got 3.6666666666666665 Extras per Roll
+Order Cost: 32
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 2 JellyRolls.
+They got 3.3333333333333335 Extras per Roll
+Order Cost: 35
+Casual Customer Orders:
+0 EggRolls, 0 SpringRolls, 0 PastryRolls, 1 SausageRolls, and 2 JellyRolls.
+They got 3.6666666666666665 Extras per Roll
+Order Cost: 34
+Casual Customer Orders:
+1 EggRolls, 0 SpringRolls, 1 PastryRolls, 1 SausageRolls, and 0 JellyRolls.
+They got 3.6666666666666665 Extras per Roll
+Order Cost: 33
+Casual Customers Spent: 218
+Business Customers Spent: 193
+Catering Customers Spent: 147
+Total Daily Sales: 558
+Casual Customer Outages: 0
+Business Customer Outages: 0
+Catering Customer Outages: 0
+Daily Eggroll orders: 11
+Daily Springroll orders: 10
+Daily Pastryroll orders: 7
+Daily Sausageroll orders: 15
+Daily Jellyroll orders: 13
+19 egg rolls in inventory
+1 spring rolls in inventory
+14 pastry rolls in inventory
+15 sausage rolls in inventory
+2 jelly rolls in inventory
+-----------------------------------------
+Total EggRolls Sold: 286
+Total SpringRolls Sold: 274
+Total PastryRolls Sold: 276
+Total SausageRolls Sold: 289
+Total JellyRolls Sold: 264
+Total Rolls Sold: 1389
+Total Sales: 13975
+Total Outage Impacts: 138
