@@ -1,6 +1,5 @@
 public abstract class Extras extends Rolls {
     Rolls roll;
-    abstract public int cost();
 }
 
 class Sauce extends Extras {
@@ -8,8 +7,8 @@ class Sauce extends Extras {
         this.roll = roll;
     }
 
-    public int cost(){
-        return (roll.cost + 1);
+    public int getCost(){
+        return (roll.getCost() + 1);
     }
 }
 
@@ -18,8 +17,8 @@ class Filling extends Extras {
         this.roll = roll;
     }
 
-    public int cost(){
-        return (roll.cost + 1);
+    public int getCost(){
+        return (roll.getCost() + 2);
     }
 }
 
@@ -29,7 +28,7 @@ class Topping extends Extras {
         this.roll = roll;
     }
 
-    public int cost(){
-        return (roll.cost + 1);
+    public int getCost(){
+        return (roll.getCost() + 3);
     }
 }

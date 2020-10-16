@@ -8,6 +8,7 @@ abstract public class Customer {
     int topArray[];
     Boolean outage = false;
     Boolean wentToStore = false;
+    int customerspent = 0;
 
     public static int RandRollChoice(){//https://stackoverflow.com/questions/20389890/generating-a-random-number-between-1-and-10-java
         Random rand = new Random();

@@ -19,6 +19,9 @@ abstract class Rolls {
     public void printDailyOrderCount() {
       System.out.println("Daily roll orders: " + dailyOrders);
     }
+    public int getCost() {
+      return cost;
+    }
 }
 
 class EggRolls extends Rolls {
@@ -43,7 +46,7 @@ class EggRolls extends Rolls {
           temp = new Topping(temp);
           top -= 1;
       }
-      return temp.cost;
+      return temp.getCost();
     }
 }
 
@@ -69,7 +72,7 @@ class SpringRolls extends Rolls {
           temp = new Topping(temp);
           top -= 1;
       }
-      return temp.cost;
+      return temp.getCost();
     }
 }
 
@@ -96,7 +99,7 @@ class PastryRolls extends Rolls {
           temp = new Topping(temp);
           top -= 1;
       }
-      return temp.cost;
+      return temp.getCost();
     }
 }
 
@@ -122,7 +125,7 @@ class SausageRolls extends Rolls {
           temp = new Topping(temp);
           top -= 1;
       }
-      return temp.cost;
+      return temp.getCost();
     }
 }
 class JellyRolls extends Rolls {
@@ -147,6 +150,6 @@ class JellyRolls extends Rolls {
           temp = new Topping(temp);
           top -= 1;
       }
-      return temp.cost;
+      return temp.getCost();
     }
 }

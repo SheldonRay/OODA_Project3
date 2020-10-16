@@ -116,7 +116,7 @@ public class MyUnitTest {
         System.out.println("Test: check total springroll orders");
         Store store = new Store(1);
         CasualCustomer customer = new CasualCustomer();
-        store.eggRolls.setInventory(30);
+        store.springRolls.setInventory(30);
         int rollArray[] = {2,2,2,2,2};
         int sauceArray[] = {0,0,0,0,0};
         int fillArray[] = {0,0,0,0,0};

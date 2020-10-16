@@ -119,6 +119,7 @@ class Store {
           } else {
             storeClosed = true;
             totalSales += orderCost;
+            customer.customerspent += orderCost;
             return true;
           }
         } else {
@@ -177,6 +178,7 @@ class Store {
         }
       }
       totalSales += orderCost;
+      customer.customerspent += orderCost;
       return outage;
     }
 }
