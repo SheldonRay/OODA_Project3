@@ -3,7 +3,7 @@
 # Team Members: Jacob Reynolds, Tyler Devlin, Sheldon Ray
 # Run Application Instructions:
 ## type 'javac *.java in folder to compile code
-## run 'java StoreSim <number>' to execute code (number should be 30,45, or 60 and represents max inventory size)
+## run 'java StoreSim \<number>' to execute code (number should be 30,45, or 60 and represents max inventory size)
 ## Language Used: JAVA
 Our design process began with a basic UML diagram, this was our loose foundation. Later on we created a working version of the program and re-created the UML diagram.
 
